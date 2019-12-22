@@ -7,7 +7,6 @@ let isstarted,isfinished = false;
 
 function setup() {
   createCanvas(600, 400);
-  ding = loadSound('data/ding.mp3');
   puck = new Puck();
   left = new Paddle();
   right = new PaddleAI();
