@@ -6,7 +6,7 @@ let rightscore = 0;
 let isstarted,isfinished = false;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(displayWidth-30, displayHeight-30);  
   puck = new Puck();
   left = new Paddle();
   right = new PaddleAI();
