@@ -75,6 +75,6 @@ function outputs(){
 	  	textSize(32);
 	  	let wint =winner+" win"; 
 	  	text(wint, width/2-100, height/2-50);
-	  	text("Press 'space' to restart", width/2-100, height/2);
+	  	text("Press 'ENTER' to restart", width/2-100, height/2);
 	  }
 }
